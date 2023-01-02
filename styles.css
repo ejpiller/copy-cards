@@ -31,7 +31,7 @@ body {
   cursor: default;
 }
 
-.card:hover {
+.card:hover, button:hover {
   border: 0.125rem solid #a3333d;
   box-shadow: 4px 4px #a3333d;
 }
@@ -60,11 +60,7 @@ button {
   border: 0.125rem solid black;
   font-size: 0.9rem;
   font-family: "Work Sans", sans-serif;
-}
-
-button:hover {
-  border: 0.125rem solid #a3333d;
-  box-shadow: 4px 4px #a3333d;
+  color: black;
 }
 
 .interface {
@@ -83,6 +79,7 @@ h1 {
   position: fixed;
   bottom: 0;
   text-align: center;
+  z-index: -1;
 }
 
 #attribution {
