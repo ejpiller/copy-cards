@@ -81,17 +81,22 @@ h1 {
 
 .footer {
   position: fixed;
-  bottom: 0;
+  top: 0;
+  right: 0;
   background-color: white;
   text-align: center;
-  border-top: 0.125rem solid black;
+  border-bottom: 0.125rem solid black;
   border-left: 0.125rem solid black;
-  border-right: 0.125rem solid black;
-  border-radius: 0.25rem 0.25rem 0 0;
-  width: 20vw;
+  border-radius: 0 0 0 0.25rem;
   max-width: 35rem;
 }
 
 #attribution {
   font-size: 0.9rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.title {
+  margin-top: 3rem;
 }

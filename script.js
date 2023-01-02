@@ -9,4 +9,5 @@ function createCard() {
   );
   el.innerText = document.getElementById("textarea").value;
   app.appendChild(el);
+  document.getElementById("textarea").value = "";
 }
