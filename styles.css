@@ -83,7 +83,7 @@ h1 {
   position: fixed;
   bottom: 0;
   background-color: white;
-  width: 75vw;
+  width: 65vw;
   max-width: 35rem;
   text-align: center;
   border-top: 0.125rem solid black;
@@ -93,5 +93,5 @@ h1 {
 }
 
 #attribution {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
