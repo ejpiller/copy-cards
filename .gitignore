@@ -1,0 +1,8 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore Visual Studio Code workspace files
+.code-workspace
+
+# Ignore log files
+.log
