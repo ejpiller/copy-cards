@@ -9,6 +9,7 @@ function createCard() {
     el.innerText = document.getElementById("textarea").value.trim();
     el.setAttribute("class", "item card");
     el.onclick = copyText;
+    el.ondblclick = deleteCard;
     app.appendChild(el);
     document.getElementById("textarea").value = "";
   }
@@ -16,4 +17,13 @@ function createCard() {
 
 function copyText() {
   navigator.clipboard.writeText(this.innerText);
+}
+
+function deleteCard() {
+  const response = confirm("Delete this card?");
+  if (response == true) {
+    this.remove();
+  } else {
+    console.log("Deletion canceled.");
+  }
 }
