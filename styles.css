@@ -47,6 +47,7 @@ textarea {
   font-size: 1rem;
   resize: none;
   padding: 0.5rem;
+  outline-color: #a3333d;
 }
 
 button {
