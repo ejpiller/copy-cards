@@ -64,6 +64,24 @@ button {
   color: black;
 }
 
+.dark-card{
+  background-color: #1A120B;
+  border-color: #f5f5f5;
+  color: #f5f5f5;
+}
+
+.dark-button {
+  background-color: #1A120B;
+  color: #f5f5f5;
+  box-shadow: 4px 4px #f5f5f5;
+  border-color: #f5f5f5;
+}
+
+.dark-title{
+  color: #f5f5f5;
+}
+
+
 .interface {
   text-align: center;
   margin-bottom: 2rem;
@@ -104,6 +122,7 @@ h1 {
 
 .icon {
   flex-basis: auto;
+  cursor: pointer;
 }
 
 #help, #dark-mode {
@@ -115,6 +134,17 @@ h1 {
   animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
+.light-help{
+  display: none;
+}
+
+.dark-mode{
+  background: #1A120B;
+  color: #f5f5f5;
+}
+.light-theme{
+  display: none;
+}
 @keyframes myAnim {
 	0% {
 		animation-timing-function: ease-out;
